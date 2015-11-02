@@ -4,7 +4,7 @@ public class DuckTestDrive {
 	public static void main(String[] args) {
 		MallardDuck duck = new MallardDuck();
 		WildTurkey turkey = new WildTurkey();
-		Duck adapter = new Adapter(turkey);
+		Duck adapter = new ObjectAdapter(turkey);
 		
 		System.out.println("The Turkey says...");
 		turkey.gobble();

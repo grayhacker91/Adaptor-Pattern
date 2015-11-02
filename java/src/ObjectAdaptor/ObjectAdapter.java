@@ -1,8 +1,8 @@
 package ObjectAdaptor;
 
-public class Adapter implements Duck {
+public class ObjectAdapter implements Duck {
 	Turkey turkey;
-	public Adapter(Turkey turkey) {
+	public ObjectAdapter(Turkey turkey) {
 		this.turkey = turkey;
 	}
 	public void quack() {
