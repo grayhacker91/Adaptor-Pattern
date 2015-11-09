@@ -1,7 +1,7 @@
 package ClassAdaptor;
 
-public class ClassAdapter extends WildTurkey implements Duck {
-	public void quack() {
-		this.gobble();
+	public class ClassAdapter extends WildTurkey implements Duck {
+		public void quack() {
+			this.gobble();
+		}
 	}
-}
